@@ -8,5 +8,5 @@ console.log(formattedDates);
 
 function formatDates(element){
     const parts = element.split("-");
-    return `${parts[1]}/${parts[2]}/${parts[0]}`
+    return `${parts[1]}/${parts[2]}/${parts[0]}`;
 }
